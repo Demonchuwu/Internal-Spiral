@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22f5bbb33c8975449f9502b6634b9fb, type: 3}
+  m_Name: NPC3 Dialog
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: 29ca206927d6148b69fbc96cc7cbd04c, type: 2}
+    text: 'What are you doing!? There is work to be done. No time to lose. '
+    choices: []
+  - speaker: {fileID: 11400000, guid: 7fbcfd9434577014eb541093c7d6dfa1, type: 2}
+    text: Who are you? *Head pounds* Why do you look familiar.
+    choices: []
+  - speaker: {fileID: 11400000, guid: 29ca206927d6148b69fbc96cc7cbd04c, type: 2}
+    text: WHO AM I?! I AM THE ONLY REASON YOU HAVE PURPOSE!! NOW STOP SLACKING AND
+      DO YOUR JOB!
+    choices:
+    - text: Maybe he is right. Maybe I just need to follow orders and complete my
+        assignment.
+      continuation: {fileID: 11400000, guid: 5654eecb342264826973264ea1572e14, type: 2}
+      energyIncrease: -20
+    - text: "NO! I have listened to the creatures of this maze and they guided me
+        to understand myself\u2026 *sighs* I just need a little break\u2026 please."
+      continuation: {fileID: 11400000, guid: 135cdb24f56574f4e99995c67e373302, type: 2}
+      energyIncrease: 20

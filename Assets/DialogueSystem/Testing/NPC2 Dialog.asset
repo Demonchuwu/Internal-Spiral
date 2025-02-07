@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22f5bbb33c8975449f9502b6634b9fb, type: 3}
+  m_Name: NPC2 Dialog
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: 4057d5f608c5c4b3687a8254a73878e0, type: 2}
+    text: "I ssssee you sssslithered your way through this internal ssspiral of a
+      maze. And now you\u2019ve reached me."
+    choices: []
+  - speaker: {fileID: 11400000, guid: 7fbcfd9434577014eb541093c7d6dfa1, type: 2}
+    text: Oh uhh hi there. Why do you look like that??
+    choices: []
+  - speaker: {fileID: 11400000, guid: 4057d5f608c5c4b3687a8254a73878e0, type: 2}
+    text: Sssso rude. I am only a figment of imagination. How you truly perceive
+      reality.
+    choices: []
+  - speaker: {fileID: 11400000, guid: 7fbcfd9434577014eb541093c7d6dfa1, type: 2}
+    text: "What does that mean? A figment of my imagination? But I am physically
+      here with you. I didn\u2019t create you did I?"
+    choices: []
+  - speaker: {fileID: 11400000, guid: 4057d5f608c5c4b3687a8254a73878e0, type: 2}
+    text: I can only guide you to help you understand your true purpossssse here.
+    choices:
+    - text: "AHHH why is everything here so confusing! Just tell me how to get out
+        of here and I\u2019ll be on my way, you stupid snake!"
+      continuation: {fileID: 11400000, guid: 791e09a31d31c4d8fa2679f201c031f1, type: 2}
+      energyIncrease: -3
+    - text: "I think I know myself better than you do. Whatever, what do you think
+        my \u201Ctrue purpose\u201D is?"
+      continuation: {fileID: 11400000, guid: 74d666b5ea705c64e99f1c85fbdfb87f, type: 2}
+      energyIncrease: 0
+    - text: "My true purpose? Please, help guide me. I\u2019m exhausted and can\u2019t
+        even remember why."
+      continuation: {fileID: 11400000, guid: fb826700ca88d4211bfefcedcef786bc, type: 2}
+      energyIncrease: 3

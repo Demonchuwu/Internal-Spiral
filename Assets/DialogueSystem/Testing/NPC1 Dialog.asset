@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22f5bbb33c8975449f9502b6634b9fb, type: 3}
+  m_Name: NPC1 Dialog
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: db3581c8a7049484c8e3010642039b45, type: 2}
+    text: "GRAHHHH!!! *Clears throat, ahem* Sorry about that. You seem lost\u2026
+      and exhausted."
+    choices: []
+  - speaker: {fileID: 11400000, guid: 7fbcfd9434577014eb541093c7d6dfa1, type: 2}
+    text: '*Angrily sighs* Well yeah obviously! Where the hell am I?!
+
+'
+    choices: []
+  - speaker: {fileID: 11400000, guid: db3581c8a7049484c8e3010642039b45, type: 2}
+    text: "Woah, sorry I didn\u2019t mean to come off rude. Why don\u2019t you try
+      to take a few deep breaths to relax. Everything will work out.\n"
+    choices:
+    - text: "Shut up! I don\u2019t want to relax, get me the hell out of here! "
+      continuation: {fileID: 11400000, guid: e23be2fecaa21fc4cb22ee1a6a532fb7, type: 2}
+      energyIncrease: -3
+    - text: 'Fine. I''ll take deep breaths, but can you just hurry up and get me
+        out of here. '
+      continuation: {fileID: 11400000, guid: 7b0a592a27a792e4d8d56fed277135a3, type: 2}
+      energyIncrease: 0
+    - text: "You\u2019re right. Sorry for that outburst. *Inhales deeply and exhales
+        slowly*"
+      continuation: {fileID: 11400000, guid: 584a061732fe48d428a49e778ef05542, type: 2}
+      energyIncrease: 3

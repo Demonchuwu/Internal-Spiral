@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742a25e48d820364392d5bb6ae639f10, type: 3}
+  m_Name: snake1
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 247185ae72f0f9b45be7bf141f99875c, type: 3}
+  - {fileID: 8300000, guid: 7bce80751ca88ed4986fca32e2e8fdab, type: 3}
+  - {fileID: 8300000, guid: db2dc11657268e34eadccf57e245c89d, type: 3}
+  volume:
+    baseValue: 1
+    variation: 0.5
+  pitch:
+    baseValue: 1
+    variation: 0.5

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22f5bbb33c8975449f9502b6634b9fb, type: 3}
+  m_Name: Answer2(bad)
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: 4057d5f608c5c4b3687a8254a73878e0, type: 2}
+    text: I ssssee how you got lost here. In order to essscape, you mussssst learn
+      how to be honest with yoursssself and otherssss. Amplify your inner voice.
+      *Slithers away*
+    choices: []
+  - speaker: {fileID: 11400000, guid: 7fbcfd9434577014eb541093c7d6dfa1, type: 2}
+    text: "Sssstupid ssssnake. I don\u2019t need your help. I\u2019ll bottle up my
+      emotions and do everything myself."
+    choices: []

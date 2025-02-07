@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22f5bbb33c8975449f9502b6634b9fb, type: 3}
+  m_Name: Answer1(good)
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: db3581c8a7049484c8e3010642039b45, type: 2}
+    text: "It\u2019s ok. Outbursts are natural to someone in your situation. Crunch
+      happens to many workers within many industries. Especially the game industry
+      haha."
+    choices: []
+  - speaker: {fileID: 11400000, guid: 7fbcfd9434577014eb541093c7d6dfa1, type: 2}
+    text: "Wait what do you mean? We\u2019re clearly in an ominous maze, not a work
+      environment. *grabs head, head pounds* "
+    choices: []
+  - speaker: {fileID: 11400000, guid: db3581c8a7049484c8e3010642039b45, type: 2}
+    text: "I have to go. We\u2019re on the clock, you know."
+    choices: []
+  - speaker: {fileID: 11400000, guid: 7fbcfd9434577014eb541093c7d6dfa1, type: 2}
+    text: " Please don\u2019t leave. I\u2019m still lost\u2026 *soft sigh* At least
+      I feel a little more relaxed "
+    choices: []

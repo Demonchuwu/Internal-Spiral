@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22f5bbb33c8975449f9502b6634b9fb, type: 3}
+  m_Name: Answer1(neutral)
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: db3581c8a7049484c8e3010642039b45, type: 2}
+    text: "*Sighs* I guess that\u2019s a start. To find your way out you must learn
+      to speak before you can walk. Dealing with work crunch and the effective ways
+      to deal with it begin with listening to yourself."
+    choices: []
+  - speaker: {fileID: 11400000, guid: 7fbcfd9434577014eb541093c7d6dfa1, type: 2}
+    text: 'Listening to myself? Crunch? What are you talking about?
+
+'
+    choices: []
+  - speaker: {fileID: 11400000, guid: db3581c8a7049484c8e3010642039b45, type: 2}
+    text: "I have to go. We\u2019re on the clock, you know. *Quickly flies away*"
+    choices: []
+  - speaker: {fileID: 11400000, guid: 7fbcfd9434577014eb541093c7d6dfa1, type: 2}
+    text: " Please don\u2019t leave. I\u2019m still lost\u2026 *soft sigh* At least
+      I feel a little more relaxed."
+    choices: []
